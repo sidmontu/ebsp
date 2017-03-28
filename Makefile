@@ -4,7 +4,7 @@ HOST_CCFLAGS	:= -O3
 E_CCFLAGS		:= -O3
 
 HOST_MAIN		:= src/main.c src/api.c
-E_MAIN			:= src/e_main.c
+E_MAIN			:= src/e_main.c src/api.c
 
 HOST_INCLUDES	:= -I/usr/local/include -I./include/
 HOST_LIB_FLAGS	:= -le-hal -le-loader -lpapi
