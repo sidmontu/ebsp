@@ -1,0 +1,12 @@
+# Nodes: 5 Edges: 10
+# FromNodeId	ToNodeId
+1 2
+2 4
+4 1
+4 0
+0 1
+2 3
+3 0
+1 4
+0 4
+3 1
